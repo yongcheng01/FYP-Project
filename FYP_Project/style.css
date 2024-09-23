@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.alert {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.alert-danger {
+    background: #e84118;
+    color: white;
+    text-align:center;
+}
+
+.alert-success {
+    background: #4cd137;
+    color: white;
+    text-align:center;
+}
+
+.error {
+    background: #e84118;
+    color: white;
+    text-align:center;
+    margin-left: 50%;
+    text-align:center;
+    font-size: 15px;
+}
+.success {
+    background: #4cd137;
+    color: white;
+    text-align:center;
+    font-size: 15px;
+    margin-left: 50%;
+}
+
+.login {
+    background: white;
+    padding: 30px 30px;
+    min-width: 400px;
+    max-width: 450px;
+}
+
+.login .title {
+    margin: 10px 0;
+    text-align: center;
+    padding-left: 5px;
+    color: black;
+    font-size: 25px;
+}
+.login .form .input-field {
+    width: 100%;
+    display: block;
+    margin: 30px 0;
+}
+.login .form .input-password {
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+}
+.login .form .input-field .input-label {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.login .form .input-password .input-label {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.login .form .input-field .input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    transition: 0.3s all ease;
+}
+.login .form .input-password .input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    transition: 0.3s all ease;
+}
+
+.login .form .input-field .input:focus {
+    border-color: #00a8ff;
+}
+
+.login .form .forget{
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px;
+    color: 	#0000ff;
+    text-decoration: none;
+    margin-left: 75px;
+}
+.login .form .forget:hover {
+    text-decoration: underline;
+}
+
+.login .form .btn {
+    background: #00a8ff;
+    border: 1px solid #00a8ff;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: 0.3s all ease;
+}
+
+.login .form .btn:hover{
+    opacity: .7;
+}
+.registerAccount{
+    text-align: center;
+}
+.registerAccount .registersAccount{
+    text-decoration: none;
+    color: 	#0000ff;
+}
+.registerAccount .registersAccount:hover {
+    text-decoration: underline;
+}
+.hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+
+
